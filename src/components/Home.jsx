@@ -24,9 +24,12 @@ export default function Home() {
                 Contact Us
               </button>
             </a>
-            <button className="px-6 py-2 border border-black text-black font-medium rounded-md hover:bg-[#2d3d72] hover:text-white transition">
-              Sign In
-            </button>
+            <a href="https://www.geniescareerhub.com/login">
+              {" "}
+              <button className="px-6 py-2 border border-black text-black font-medium rounded-md hover:bg-[#2d3d72] hover:text-white transition">
+                Sign In
+              </button>
+            </a>
           </div>
         </header>
 

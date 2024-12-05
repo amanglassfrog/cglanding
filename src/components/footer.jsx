@@ -76,14 +76,17 @@ export default function Footer() {
 
               <ul className="mt-6 space-y-4 text-sm">
                 <li>
-                  <Link href="/resume" className="text-black transition">
+                  <Link
+                    href="https://www.geniescareerhub.com/resume"
+                    className="text-black transition"
+                  >
                     CV Creator
                     <MdOutlineKeyboardArrowRight className="inline text-xl" />
                   </Link>
                 </li>
                 <li>
                   <Link
-                    href="/resume-analyzer"
+                    href="https://www.geniescareerhub.com/resume-analyzer"
                     className="text-black transition"
                   >
                     CV Optimiser
@@ -91,20 +94,26 @@ export default function Footer() {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/job-cv" className="text-black transition">
+                  <Link
+                    href="https://www.geniescareerhub.com/job-cv"
+                    className="text-black transition"
+                  >
                     CV Match
                     <MdOutlineKeyboardArrowRight className="inline text-xl" />
                   </Link>
                 </li>
                 <li>
-                  <Link href="/coaches" className="text-black transition">
+                  <Link
+                    href="https://www.geniescareerhub.com/coaches"
+                    className="text-black transition"
+                  >
                     Career Coaching
                     <MdOutlineKeyboardArrowRight className="inline text-xl" />
                   </Link>
                 </li>
                 <li>
                   <Link
-                    href="/pshycometric-test"
+                    href="https://www.geniescareerhub.com/pshycometric-test"
                     className="text-black transition"
                   >
                     Psychometric Test
@@ -119,7 +128,10 @@ export default function Footer() {
 
               <ul className="mt-6 space-y-4 text-sm">
                 <li>
-                  <Link href="/about-us" className="text-black transition">
+                  <Link
+                    href="https://www.geniescareerhub.com/about-us"
+                    className="text-black transition"
+                  >
                     {" "}
                     About Us
                     <MdOutlineKeyboardArrowRight className="inline text-xl" />
@@ -133,20 +145,29 @@ export default function Footer() {
 
               <ul className="mt-6 space-y-4 text-sm">
                 <li>
-                  <Link href="/contact-us" className="text-black transition">
+                  <Link
+                    href="https://www.geniescareerhub.com/contact-us"
+                    className="text-black transition"
+                  >
                     Contact
                     <MdOutlineKeyboardArrowRight className="inline text-xl" />
                   </Link>
                 </li>
 
                 <li>
-                  <Link href="/faq" className="text-black transition ">
+                  <Link
+                    href="https://www.geniescareerhub.com/faq"
+                    className="text-black transition "
+                  >
                     FAQs
                     <MdOutlineKeyboardArrowRight className="inline text-xl" />
                   </Link>
                 </li>
                 <li>
-                  <Link href="/pricing" className="text-black transition">
+                  <Link
+                    href="https://www.geniescareerhub.com/pricing"
+                    className="text-black transition"
+                  >
                     Pricing
                     <MdOutlineKeyboardArrowRight className="inline text-xl" />
                   </Link>
@@ -167,7 +188,10 @@ export default function Footer() {
               <p className="font-bold text-gray-900">Legal</p>
               <ul className="mt-6 space-y-4 text-sm">
                 <li>
-                  <Link href="/return-policy" className="text-black transition">
+                  <Link
+                    href="https://www.geniescareerhub.com/return-policy"
+                    className="text-black transition"
+                  >
                     {" "}
                     Return Policy{" "}
                     <MdOutlineKeyboardArrowRight className="inline text-xl" />
@@ -175,7 +199,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <Link
-                    href="/privacy-policy"
+                    href="https://www.geniescareerhub.com/privacy-policy"
                     className="text-black transition"
                   >
                     {" "}
@@ -184,7 +208,10 @@ export default function Footer() {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/refund-policy" className="text-black transition">
+                  <Link
+                    href="https://www.geniescareerhub.com/refund-policy"
+                    className="text-black transition"
+                  >
                     {" "}
                     Refund Policy{" "}
                     <MdOutlineKeyboardArrowRight className="inline text-xl" />
@@ -192,7 +219,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <Link
-                    href="/terms-condition"
+                    href="https://www.geniescareerhub.com/terms-condition"
                     className="text-black transition"
                   >
                     Terms & Condition
@@ -200,14 +227,17 @@ export default function Footer() {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/gdpr" className="text-black transition">
+                  <Link
+                    href="https://www.geniescareerhub.com/gdpr"
+                    className="text-black transition"
+                  >
                     GDPR
                     <MdOutlineKeyboardArrowRight className="inline text-xl" />
                   </Link>
                 </li>
                 <li>
                   <Link
-                    href="/editorial-guidlines"
+                    href="https://www.geniescareerhub.com/editorial-guidlines"
                     className="text-black transition"
                   >
                     Editorial Guidlines
@@ -216,7 +246,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <Link
-                    href="/cookies-tracking-policy"
+                    href="https://www.geniescareerhub.com/cookies-tracking-policy"
                     className="text-black transition"
                   >
                     Cookies & Tracking Policy
