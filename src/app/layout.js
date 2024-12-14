@@ -1,10 +1,11 @@
 import { Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
+import Head from "next/head";
 
 const plusJakartaSans = Plus_Jakarta_Sans({
-  subsets: ["latin"],  // You can add more subsets like 'cyrillic', 'vietnamese', etc.
-  weight: ["400", "500", "700"],  // You can specify which weights you need.
-  style: "normal",  // Or 'italic' if needed.
+  subsets: ["latin"], // Add more subsets if needed
+  weight: ["400", "500", "700"], // Specify required weights
+  style: "normal", // Or 'italic'
 });
 
 export const metadata = {
@@ -15,7 +16,24 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${plusJakartaSans.className}  antialiased`}>
+      <Head>
+        {/* Google Analytics Tag */}
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-W3Z50JFKPG"
+        ></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-W3Z50JFKPG');
+            `,
+          }}
+        />
+      </Head>
+      <body className={`${plusJakartaSans.className} antialiased`}>
         {children}
       </body>
     </html>
