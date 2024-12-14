@@ -16,7 +16,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <Head>
+      <head>
         {/* Google Analytics Tag */}
         <script
           async
@@ -32,7 +32,7 @@ export default function RootLayout({ children }) {
             `,
           }}
         />
-      </Head>
+      </head>
       <body className={`${plusJakartaSans.className} antialiased`}>
         {children}
       </body>
