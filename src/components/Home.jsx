@@ -40,7 +40,7 @@ export default function Home() {
               <h1 className="text-[45px] sm:text-[70px] md:text-[80px] leading-tight text-gray-800">
                 ATS Friendly <span className="text-blue-600 font-bold">CV</span>{" "}
                 <br />
-                <span className="font-bold">in Minutes 👋</span>
+                <span className="font-bold">in Minutes</span>
               </h1>
               <p className="mt-4 font-medium text-gray-600 text-[12px] sm:text-[18px]">
                 CV making just got Quicker, Easier, and more Precise with Genies
