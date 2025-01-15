@@ -50,15 +50,12 @@ export default function Home() {
                 Lets get started!
               </p>
               <p className="mt-6 font-semibold italic text-[24px] md:text-[34px] text-black">
-                Sign Up Now for a{" "}
-                <span className="font-bold text-blue-600">
-                  14-day Free Trial!
-                </span>
+                Sign Up Now
               </p>
               <a href="https://www.geniescareerhub.com/resume-builder">
                 {" "}
                 <button className="mt-6 px-6 py-3 bg-blue-600 text-white text-lg font-medium rounded-md hover:bg-blue-700 transition">
-                  Create CV Now
+                  Create CV For Free
                 </button>
               </a>
             </div>
